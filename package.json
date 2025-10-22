@@ -6,7 +6,7 @@
   "homepage": "https://cuylerzukowski.github.io/react7_zukowski/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist -u \"github-actions-bot <github-actions@github.com>\" --repo https://x-access-token:${GITHUB_TOKEN}@github.com/cuylerzukowski/react7_zukowski.git",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
