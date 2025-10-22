@@ -7,11 +7,7 @@ function App() {
     
         <h1>Cuyler Zukowski</h1>
 
-        <img 
-          src="/cuyZ.jpg" 
-          className="my-photo" 
-          alt="Cuyler Zukowski" 
-        />
+        <h3>I tried to put an image of myself here but couldn't get it to show up for the life of me.</h3>
         
       </header>
     </div>
